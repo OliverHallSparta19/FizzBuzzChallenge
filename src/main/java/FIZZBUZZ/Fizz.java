@@ -18,4 +18,20 @@ public class Fizz {
             }
         }
     }
+
+    public void Start2(int a, int b, int m) {
+        int i;
+        for (i = 1; i < m+1; i++) {
+            if (i%a == 0) {
+                if (i%b == 0) {
+                    System.out.println("FizzBuzz " + i);
+                } else {
+                    System.out.println("Fizz " + i);
+                }
+            } else if (i%b == 0) {
+                System.out.println("Buzz " + i);
+            }
+        }
+    }
+
 }
